@@ -1,0 +1,179 @@
+/* Następna wersja SASS? */
+
+@font-face {
+    font-family: 'CyklopItalic';
+    src: url('cyklop-italic-webfont.eot');
+    src: url('cyklop-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cyklop-italic-webfont.woff') format('woff'),
+         url('cyklop-italic-webfont.ttf') format('truetype'),
+         url('cyklop-italic-webfont.svg#CyklopItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #303030;
+    font-size: 1em;
+    font-family: Verdana, sans-serif;
+}
+
+ul {
+    list-style: square;
+    margin: 15px 0 20px 20px;
+    font-size: 1em;
+}
+
+li {
+    margin: 0 0 8px 0px;
+}
+
+a {
+    color: #c13b00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+img {
+    float: left;
+    margin: 0 15px 15px 0;
+    padding: 1px;
+    background: #ffffff;
+    border: 1px solid #d0d0d0;
+}
+
+a img {
+    border-color: #c13b00;
+}
+
+a img:hover {
+    background: #c13b00;
+    border-color: #c13b00;
+}
+
+
+nav {
+    background: #1b1d1e url(/images/homesidebarbg.png) top right repeat-y;
+    position: absolute;
+    top: 0; left: 0;
+    width: 220px; height: 100%; overflow: auto;
+    text-align: right;
+    position: fixed;
+}
+
+nav h1 {
+    margin: 20px 18px 0 5px;
+    color: #c13b00;
+    font: 1.2em CyklopItalic, sans-serif;
+    letter-spacing: 0px;
+}
+
+nav h2, nav h3 {
+    letter-spacing: 0px;
+    text-align: right;
+}
+
+nav h2 {
+    margin: 5px 20px 18px 5px;
+    color: #ff6600;
+    font: 1.2em CyklopItalic, sans-serif;
+}
+
+nav p {
+    margin: 0 20px 18px 5px;
+    color: #A0A0A0;
+    font-size: 0.8em;
+}
+
+nav a {
+    color: #ff6600
+}
+
+nav footer {
+    margin: 2em 0 20px 0;
+}
+
+nav footer p {
+   margin: 0.25em 1em 0 0;
+   font-style: italic;
+}
+
+#menu a {
+    display: block;
+    width: 202px;
+    padding: 5px 18px 5px 0;
+    color: #A0A0A0;
+
+    font-size: 1.8em;
+    font-weight: normal;
+    text-decoration: none;
+    letter-spacing: 0px;
+}
+
+#menu a:hover {
+    color: #ff6600;
+}
+
+#menu a.active {
+    padding: 5px 18px 5px 0;
+    background: #fdfdfd;
+    border-top: 2px solid #c0c0c0;
+    border-bottom: 2px solid #c0c0c0;
+}
+
+#menu a.active:hover {
+    color: #c13b00;
+    background:#fdfdfd;
+}
+
+/* Content */
+
+article {
+    width: 620px;
+    margin: 0 0 0 240px;
+    padding: 20px 0;
+    background: #fdfdfd;
+}
+
+article h1 {
+    margin: 0;
+    color: #c13b00;
+    font: 2em CyklopItalic, sans-serif;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+article h2 {
+    clear: both;
+    margin: 30px 0 10px 0;
+    color: #c13b00;
+    font: 1.4em CyklopItalic, sans-serif;
+    letter-spacing: 0px;
+}
+
+article aside {
+    margin: 20px 60px 10px 30px;
+    color: #ff6600;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+article aside cite {
+    display: block;
+    margin: 5px 80px 5px 40px;
+    color: #ff6600;
+    font-weight: normal;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: right;
+}
